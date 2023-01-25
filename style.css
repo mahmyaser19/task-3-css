@@ -1,0 +1,155 @@
+
+body {
+  background-image: linear-gradient(to right top, #d16ba5, #c083cd, #a49bea, #82b2fb, #64c6ff, #57d1ff, #4fdbff, #52e5fc, #50ebfb, #52f0f8, #57f6f5, #5ffbf1);
+}
+
+h1 {
+    
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-size: 35px;
+    border: 8px solid;
+   
+    border-image: repeating-linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89)) 20;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px
+
+
+
+    
+  }
+
+  img {
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+
+
+  h2 {
+    text-shadow: 0 0 3px #333030, 0 0 5px #d1c40a;
+    font-size: 25px;
+  }
+
+h3{
+
+  font-size: 25px;
+}
+ 
+h4{
+  font-size: 25px;
+
+}
+
+p{
+ font-size: 17px;
+ font-weight: bold
+}
+
+
+
+
+
+ol{
+
+  font-weight: bold  
+}
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form{
+    background-color: rgb(88, 221, 252);
+    padding-top:20px ;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px rgba(0, 0, 0, 0.932) ridge ;
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    cursor: pointer;  
+} 
+.form .name ,.code,.end,.year{
+    color: rgb(5, 5, 5);
+    font-size: 25px;
+    font-weight: bold  
+    text-transform: uppercase;
+  }
+
+
+.end{
+    font-size: 25px;
+
+}
+
+
+
+
+.nav-tag .link{
+    padding: 13px;
+    text-shadow: 2px 2px #12b4d1;
+    border: 5px rgb(0, 0, 0) inset;
+    border-radius: 5px;
+    background-color: rgba(11, 166, 172, 0.986);
+    color: rgb(15, 14, 14);
+    font-size: 25px;
+    border-spacing: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+ 
+  display: block;
+  position: relative;
+  border: solid 3px #ffffff;
+  padding: 40px 40px;
+  max-width: 900px;
+  width: 70%;
+  margin: 100px auto 0;
+  font-size: 17px;
+  line-height: 28px;
+  transform: rotate(-1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  transition: all 0.13s ease-in;
+  margin-bottom: 50px;
+}
+
+.container:hover {
+  transform: translateY(-10px) rotate(1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+}
+.container:hover .border {
+  transform: translateY(4px) rotate(-5deg);
+}
+.border {
+  position: absolute;
+  transition: all 0.13s ease-in;
+}
+pre {
+  background: #edeff5;
+  padding: 20px;
+}
